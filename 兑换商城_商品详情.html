@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/address.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body>
+		<div class="feix">
+          <div class="address">
+          	<div class="address_info">
+          		<div class="info_1"><img src="images/img3.png"></div>
+          		<div class="info_2">
+          			<div class="top">
+          				<div class="fl"><span class="ced">￥10.8+11840</span> 拍币</div>
+          				<div class="fr">43520人已兑换</div>
+          			</div>
+          			<div class="yjia">价格￥120</div>
+          			<div class="dom">
+          				<P class="p1">支持现场兑换</P>
+          				<P class="p2">支持邮寄兑换<span class="cf7">(所需邮费：￥15.00)</span></P>
+          			</div>
+          		</div>
+          		<div class="info_3">
+          			<h3 class="top">本商品提供商</h3>
+          			<div class="dom">
+          				<img src="images/img1.png">
+          				<div class="fr">
+          					<h3 class="title">豪客来牛排店（杏林店）</h3>
+          					<P>
+          						<span class="email">193450390@qq.com</span>
+          						<a href="#">商家主页 ></a>
+          					</P>
+          				</div>
+          			</div>
+          		</div>
+          		<p class="info_more"><i></i><span>上拉查看图文详情</span></p>
+          		<div class="info_4">
+          			<div class="text">
+          				<P><br></P>
+          				<P>中国有个烧火老，烧火老庆典酒产于中国国酒之心---茅台镇7.5平公里的核心酱酒产区，以当地优质糯粱、水、小麦为原料，采用传统工艺精心酿制、名师勾调而成。</P>
+          				<P>具有酒体丰满、酱香突出、绵柔细腻</P>
+          				<P><br></P>
+          			</div>
+          			<div class="show">
+          				<img src="images/img4.png">
+          				<img src="images/img5.png">
+          			</div>
+          		</div>
+          		<div class="info_5">
+          			<h3 class="top">现场兑换地点</h3>
+          			<dl>
+          				<dd class="info_5_address">
+          					<label>地址</label>
+          					<P>福建省厦门市集美杏林宁海五里39号207</P>
+          					<a href="#"><img src="images/icon31.png"></a>
+          				</dd>
+          				<dd class="info_5_phone">
+          					<label>电话</label>
+          					<P>18165423201</P>
+          					<a href="#"><img src="images/icon32.png"></a>
+          				</dd>
+          				<dd>
+          					<label>接受兑换时间</label>
+          					<P>周一～周日   9:00-18:00</P>
+          					
+          				</dd>
+          			</dl>
+          		</div>
+          	</div>
+          	<!--弹窗-->
+          	<div class="add_tanc">
+          		<div class="tanc_beij"></div>
+          		<div class="add_text">
+          			<div class="add_close"><img src="images/icon86.png"></div>
+          			<div class="address_order">
+          				<div class="order_style">
+          					<div class="top">
+          						<div class="fl"><img src="images/img2.png"></div>
+          						<div class="fr">
+          							<P class="cdb">￥188</P>
+          							<P class="c72">剩余1521件</P>
+          						</div>
+          					</div>
+          					<div class="dom">
+          						<h3 class="title">兑换方式</h3>
+          						<div class="style_change"><a href="javascript:;" class="active">现场兑换<i></i></a><a href="javascript:;">邮寄兑换<i></i></a></div>
+          					</div>
+          				</div>
+          				<div class="order_3">
+		          			<div class="num">
+		          				<div class="fl">
+		          			      <h3>购买数量</h3>
+		          				  <P class="pt">根据商家设置每名用户最多可兑换N件</P>
+		          				</div>
+		          				<div class="fr"><a href="javascript:;" class="js com">-</a><input type="text" value="1" disabled="disabled" class="com"><a href="javascript:;" class="zj com">+</a></div>
+		          			</div>
+		          		</div>
+          			</div>
+          			<div class="info_btn"><a href="javascript:;">确 认</a></div>
+          		</div>
+          	</div>
+          	<!--弹窗结束-->
+          </div>
+		</div>
+		<script type="text/javascript">
+			$(".style_change a").click(function(){
+				$(this).addClass("active");
+				$(this).siblings().removeClass("active");
+			});
+			$(".add_close").click(function(){
+				$(".add_tanc").hide();
+			});
+		</script>
+	</body>
+</html>

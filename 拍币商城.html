@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/swiper.min.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body>
+		<div class="feix">
+			<div class="shop_list">
+				<ul class="lt">
+					<li class="lt1 active"><a href="javascript:;"><span class="spn">全城</span><u></u></a>
+						<ul>
+							<li class="on">全城</li>
+							<li>集美</li>
+							<li>海沧</li>
+							<li>思明</li>
+						</ul>
+					</li>
+					<li class="lt1"><a href="javascript:;"><span class="spn">综合排序</span><u></u></a>
+						<ul>
+							<li>综合排序</li>
+							<li>销量最多</li>
+							<li>拍币最低</li>
+							<li>拍币最高</li>
+						</ul>
+					</li>
+					<li class="lt1"><a href="javascript:;"><span class="spn">筛选</span><u></u></a>
+						<ul>
+							<li>全部</li>
+							<li>邮寄发货</li>
+							<li>现场兑换</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="index_list">
+				<ul>
+					<li class="active">
+						<div class="qg">
+							<div class="tuih_beij"></div>
+						    <i class="not"><img src="images/icon58.png"></i>
+						</div>
+						<div class="top"><a href="#"><img src="images/index_42.png"></a></div>
+						<div class="title"><a href="#">Apple Watch(42毫米银色铝金属表壳搭配白色运动型表...</a></div>
+						<div class="dom">
+							<p class="cff"><span class="price">1820025</span>拍币</p>
+							<label>不限地区</label>
+						</div>
+						<div class="tuih">
+							<div class="fl">￥1500</div>
+							<div class="fr"><u>490</u>人已兑</div>
+						</div>
+					</li>
+					<li>
+						<div class="top"><a href="#"><img src="images/index_42.png"></a></div>
+						<div class="title"><a href="#">Apple Watch(42毫米银色铝金属表壳搭配白色运动型表...</a></div>
+						<div class="dom">
+							<p class="cff"><span class="price">1820025</span>拍币</p>
+							<label>漳州</label>
+						</div>
+						<div class="tuih">
+							<div class="fl">￥1500</div>
+							<div class="fr"><u>490</u>人已兑</div>
+						</div>
+					</li>
+					<li>
+						<div class="top"><a href="#"><img src="images/index_42.png"></a></div>
+						<div class="title"><a href="#">Apple Watch(42毫米银色铝金属表壳搭配白色运动型表...</a></div>
+						<div class="dom">
+							<p class="cff"><span class="price">1820025</span>拍币</p>
+							<label>不限地区</label>
+						</div>
+						<div class="tuih">
+							<div class="fl">￥1500</div>
+							<div class="fr"><u>490</u>人已兑</div>
+						</div>
+					</li>
+					<li>
+						<div class="top"><a href="#"><img src="images/index_42.png"></a></div>
+						<div class="title"><a href="#">Apple Watch(42毫米银色铝金属表壳搭配白色运动型表...</a></div>
+						<div class="dom">
+							<p class="cff"><span class="price">1820025</span>拍币</p>
+							<label>厦门</label>
+						</div>
+						<div class="tuih">
+							<div class="fl">￥1500</div>
+							<div class="fr"><u>490</u>人已兑</div>
+						</div>
+					</li>
+				</ul>
+				<div class="index_more"><a href="javascript:;">点击加载更多<br><i><img src="images/icon_more.png"></i></a></div>
+			</div>
+			<div class="index_foot">
+				<ul>
+				  <li class="active lt1"><a href="#"><i></i><p>首页</p></a></li>
+				  <li class="lt2"><a href="#"><i></i><p>1元拍卖</p></a></li>
+				  <li class="lt3"><a href="#"><i></i><p>今日任务</p></a></li>
+				  <li class="lt4"><a href="#"><i></i><p>兑换商城</p></a></li>
+				  <li class="lt5"><a href="#"><i></i><p>个人中心</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var lt = $(".shop_list .lt .lt1");
+				$(".shop_list .lt .lt1.active").children("ul").show();
+				lt.click(function(){
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+					if($(this).children("ul").is(":visible")){
+						$(this).children("ul").hide();
+						$(this).siblings().children("ul").hide();
+					}else{
+						$(this).children("ul").show();
+						$(this).siblings().children("ul").hide();
+					}
+				});
+				function change(){
+					$(".shop_list .lt ul li").click(function(){
+						$(this).addClass("on");
+						$(this).siblings().removeClass("on");
+						var cm = $(this).html();
+						$(this).parent().siblings().children(".spn").html(cm);
+					});
+				}
+				change();
+			})
+		</script>
+	</body>
+</html>

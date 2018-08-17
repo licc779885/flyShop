@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/address.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/style.js"></script>
+		<script type="text/javascript" src="js/distpicker.data.js"></script>
+		<script type="text/javascript" src="js/distpicker.js"></script>
+	</head>
+	<body>
+		<div class="feix">
+          <div class="address">
+          	<div class="address_add"><a href="#"><h3>手动添加收货地址</h3></a></div>
+          	<div class="address_list">
+          		<ul>
+          			<li class="active">
+          				<div class="ad_top">
+          					<P>梁天发 18050466672</P>
+          					<P>福建 厦门 集美区杏林宁海五里39号207</P>
+          				</div>
+          				<div class="ad_dom">
+          					<div class="fl"><a href="javascript:;">设为默认</a></div>
+          					<div class="fr"><a href="javascript:;">编辑</a><a href="javascript:;">删除</a></div>
+          				</div>
+          			</li>
+          			<li>
+          				<div class="ad_top">
+          					<P>梁天发 18050466672</P>
+          					<P>福建 厦门 集美区杏林宁海五里39号207</P>
+          				</div>
+          				<div class="ad_dom">
+          					<div class="fl"><a href="javascript:;" class="on">已设为默认</a></div>
+          					<div class="fr"><a href="javascript:;">编辑</a><a href="javascript:;">删除</a></div>
+          				</div>
+          			</li>
+          		</ul>
+          		<div class="add"><a href="javascript:;"><img src="images/icon_btn.png"></a></div>
+          	</div>
+          	<div class="address_tanc">
+          		<div class="tanc_beij"></div>
+          		<div class="text">
+          			<div class="close"><img src="images/icon33.png"></div>
+          			<h3>添加新的收货地址</h3>
+          			<ul>
+          				<li class="name">
+          					<div class="fl">
+          						<P><input type="text" value="名字"></P>
+          					</div>
+          					<div class="fr">
+          						<P><input type="text" value="电话"></P>
+          					</div>
+          				</li>
+          				<li class="city">
+          					<!---->
+          					<form class="form-inline">
+						      <div data-toggle="distpicker">
+						          <select data-province="选择省份"></select>
+						          <select data-city="选择城市"></select>
+						          <select data-district="选择地区"></select>
+						      </div>
+						    </form>
+          					<!---->
+          				</li>
+          				<li class="ress">
+          					<P>请填写详细的街道地址</P>
+          					<textarea type="text" placeholder=""></textarea>
+          				</li>
+          			</ul>
+          			<div class="rem"><a href="javascript:;">保 存</a></div>
+          		</div>
+          	</div>
+          </div>
+		</div>
+	</body>
+</html>

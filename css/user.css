@@ -1,0 +1,54 @@
+.user_top{position: relative;}
+.user_top .text{width:100%;height:100%;position:absolute;left:0;top:0;color:#fff;text-align: center;}
+.user_top .text h3{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size:1.5rem;}
+.user_top .text img{width:8.0rem;height:8.0rem;border-radius:50%;display:block;margin:5% auto 2%;}
+.user_jf{overflow: hidden;text-align: center;background:#fff;border-bottom:1px solid #eee;margin-bottom:1%;}
+.user_jf>div{width:50%;margin:2% 0;line-height:170%;}
+.user_jf .fl{border-right:1px dashed #eaeaea;}
+.user_title{padding:2% 3%;overflow: hidden;background:#fff;border-bottom:1px solid #eee;margin-bottom:1%;}
+.user_title h3{float: left;color:#333;font-size:1.4rem;}
+.user_title a{float: right;color:#868585;display: block;margin-top:1%;}
+.user_sever ul{overflow: hidden;margin-bottom:3%;}
+.user_sever li{float: left;width:33.33%;text-align: center;background:#fff;padding:3% 0;border-right:1px solid #f4f5f7;border-bottom:1px solid #f4f5f7;}
+.user_sever li a{display: block;width: 100%;height:100%;color:#666;}
+.user_sever li img{display: block;width:40%;margin:4% auto;}
+.user_paiB .menu_top{background:#fff;border-bottom:1px solid #eee;text-align: center;overflow: hidden;font-size: 1.4rem;padding:1.5% 0 0;}
+.user_paiB .menu_top a{display: block;width:50%;float:left;padding:2% 0;}
+.user_paiB .menu_top a:first-child{border-right: 1px dashed #eee;}
+.user_paiB .menu_top a.active{color:#ff0000;border-bottom:2px solid #FF0000;}
+.user_paiB ul.list{padding:0 3%;}
+.user_paiB ul.list li{background:#fff;border:1px solid #eaeaea;color:#666;padding:0 2% 2%;border-radius:5px;margin-top:3%;}
+.user_paiB ul.list li>div{overflow: hidden;padding-top:2%;}
+.user_paiB ul.list li u{color:#339981;font-size:1.4rem;padding-top:2px;}
+.user_paiB ul.list li em{color:#ff2a44;font-size:1.4rem;padding-top:2px;}
+.user_lucky_show{margin:5% 0;overflow: hidden;text-align: center;}
+.user_lucky_show a{display:inline-block;width:44%;height:3.2rem;line-height:3.2rem;color:#fff;font-size:1.8rem;margin:0 2%;border-radius:1.5rem;}
+.user_lucky_show a.a1{background:#e6162d;}
+.user_lucky_show a.a2{background:#aaa;}
+.user_my_title{height:3.0rem;line-height:3.0rem;background:#fff;color:#333;padding-left: 5%;font-size:1.3rem;}
+.user_my_menu .shop_list .lt .lt1 a{border-bottom:none;}
+.user_my_list .index_bt{font-size:1.25rem;padding-left:12%;}
+.user_my_list .index_bt:after{display: block;content: '';width:0.6rem;height:1.0rem;background:url(../images/icon22_1.png) no-repeat center top;background-size: 100%;position: absolute;right: 3%;top:38%;}
+.user_my_list .index_bt img{width:1.5rem;margin-top:-0.7rem;}
+.user_my_list .index_bt a{color:#666;font-size:1.25rem;padding-right:3%;}
+.my_list li{background:#fff;border-bottom:1px solid #eee;margin-bottom:1%;}
+.my_list li .text{padding:3%;color:#666;font-size:1.1rem;}
+.my_list li .text_top{overflow: hidden;}
+.my_list li .text_dom{margin-top:2%;overflow: hidden;}
+.my_list li .text_top .fl img{width:6.0rem;height:6.0rem;}
+.my_list li .text_top .fr{width:76%;}
+.my_list li .text_top .fr h3{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.my_list li .text_top .fr .text_1{margin:2% 0 3%;overflow: hidden;}
+.my_list li .text_top .fr .text_1 .spn{float: right;}
+.my_list li .text_top .fr .text_2{overflow: hidden;height:2.3rem;line-height:2.3rem;}
+.my_list li .text_top .fr .text_2 .cef{padding-left:3%;}
+.my_list li .text_top .fr .text_2 a{float: right;width:6.0rem;height:2.2rem;text-align: center;line-height:2.2rem;background:#e5004f;color:#fff;border-radius:4px;}
+.user_my_show ul{background:#fff;overflow: hidden;padding:8% 3% 2%;}
+.user_my_show ul li{width:6.0rem;height:6.0rem;float: left;background:url(../images/beij8.png) no-repeat center center;background-size:100%;margin-left:3%;position: relative;}
+.user_my_show ul li a{display:block;position: absolute;width: 1.2rem;height: 1.2rem;background:#ff0000;text-align: center;line-height:1.2rem;color:#fff;right:-0.3rem;top:-0.3rem;border-radius:50%;display: none;}
+.user_my_show ul li.active a{display: block;}
+.user_my_show ul li input[type=file]{position: absolute;left: 0;top: 0;width: 100%;height:100%;opacity: 0;}
+.user_my_show .btn{margin:3% 0;text-align: right;}
+.user_my_show .btn a{display: inline-block;width:7.0rem;height:2.7rem;line-height:2.7rem;color:#fff;margin-right: 3%;font-size:1.4rem;text-align: center;border-radius:4px;}
+.user_my_show .btn a.a1{background:#ccc;}
+.user_my_show .btn a.a2{background:#ec6941;}

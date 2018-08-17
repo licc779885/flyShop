@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/user.css" rel="stylesheet" />
+		<link type="text/css" href="css/back.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body>
+		<div class="feix">
+            <div class="login">
+            	<div class="login_beij"><img src="images/beij12.png"></div>
+            	<div class="login_2 lom">
+            		<form>
+            			<p><input type="text" placeholder="输入您的手机号" class="phone com"></p>
+            			<div class="login_dom"><a href="#" class="a1">8-20位字母，数字或符号两种或以上组成</a></div>
+            			<div class="login_btn"><input type="submit" value="确 定"></div>
+            		</form>
+            		<!--弹窗-->
+            		<div class="tanc1">
+            			<div class="tanc_beij"></div>
+            			<div class="tanc1_text">
+            				<div class="tanc1_close"></div>
+            				<img src="images/icon82.png">
+            				<h3>修改成功</h3>
+            				<a href="javascript:;">立即登录</a>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+			  $(".tanc_beij,.tanc1 a,.tanc1_close").click(function(){
+			  	$(".tanc1").hide();
+			  });
+			})
+		</script>
+	</body>
+</html>
